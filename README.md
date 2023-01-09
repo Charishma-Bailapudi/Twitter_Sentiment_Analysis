@@ -67,7 +67,7 @@ To know more about *tweepy* visit [https://docs.tweepy.org/en/v3.5.0/api.html]
 Use regualr expression to clean RT,hyperlink, punctuation characters etc.. and finally convert to lowercase and then split the sentence into tokens.
 Now using for loop check whether those tokens are present in stopwords are not.If not then add those tokens to empty list.Then join all those tokens to get a sentence.
 
-## *Step 5: Sentiment Analyse*
+## *Step 5: Sentiment Analysis*
 Now, I can use cleaned text to calculate polarity, subjectivity, sentiment, negative, positive, neutral and compound parameters again. For all calculated parameters, I create new features to my data frame.When you have a look into tweet list you can see some duplicated tweets, so you need to drop duplicate tweets.
 
 ## *Step 6:Visualization*
